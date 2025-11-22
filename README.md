@@ -44,8 +44,7 @@ cd backend-java
 mvn clean package
 # Run with default port (8080):
 mvn spring-boot:run
-# Or run the packaged jar and override port:
-$env:SERVER_PORT='8081'
+
 java -jar target\\ai-job-portal-1.0.0.jar
 ```
 
